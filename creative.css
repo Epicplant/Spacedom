@@ -1,0 +1,57 @@
+/*
+  Christopher Roy
+  04/15/2020
+  Section AK: Austin Jenchi
+
+  A page that contains and applys style to the specific
+  #creative section of webpage space.html. This style contains such
+  elements as font, flex, border, and more.
+*/
+
+#creative {
+  background: brown;
+  width: 1000px;
+  height: 1800px;
+  border: 5px dotted indigo;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+
+#creative div {
+  margin: 15px;
+  background-color: gold;
+  border: 5px groove teal;
+}
+
+#creative aside {
+  border: 5px inset green;
+  font-size: 25px;
+}
+
+#creative article {
+  display: flex;
+  height: 90%;
+  margin: 5px;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+#creative h2 {
+  align-content: center;
+  text-shadow: 1px 1px yellowgreen;
+  font-size: 50px;
+}
+
+#creative img, #creative div {
+  width: 400px;
+  height: 400px;
+}
+
+#creative li, #creative p {
+  font-size: 20px;
+}
+
+#creative h3, #creative h2 {
+  text-decoration: overline;
+  font-weight: bold;
+}
